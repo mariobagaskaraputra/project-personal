@@ -1,0 +1,15 @@
+:root { --accent: #7533f9; --ink: #202033; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+body { color: var(--ink); padding-top: 56px; }
+.hero-section { background: linear-gradient(135deg, #f6f2ff 0%, #ffffff 70%); min-height: 560px; display: flex; align-items: center; }
+.eyebrow { color: var(--accent); font-size: .78rem; font-weight: 700; letter-spacing: .14em; }
+.profile-photo { width: min(100%, 330px); height: 420px; object-fit: cover; object-position: center 44%; border-radius: 48% 48% 1.25rem 1.25rem; box-shadow: 0 1rem 3rem rgba(31, 20, 63, .16); }
+.btn-primary { background-color: var(--accent); border-color: var(--accent); }
+.btn-primary:hover { background-color: #5e25dc; border-color: #5e25dc; }
+.section-space { padding: 5rem 0; }
+.section-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin-bottom: 1.25rem; }
+.skill-card, .project-card { background: #fff; border: 1px solid #ece9f4; border-radius: 1rem; padding: 1.75rem; box-shadow: 0 .5rem 1.5rem rgba(31, 20, 63, .05); }
+.skill-card > i, .project-icon { color: var(--accent); font-size: 2rem; }
+.skill-card h3, .project-card h3 { font-size: 1.2rem; font-weight: 700; margin-top: 1rem; }
+.contact-section { background: #24164c; }
+@media (max-width: 575.98px) { .hero-section { min-height: auto; text-align: center; } .profile-photo { height: 330px; width: min(82%, 300px); } .section-space { padding: 3.75rem 0; } }
